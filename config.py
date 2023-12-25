@@ -2,7 +2,7 @@ import json
 import tqdm
 
 (APPNAME, ) = ("ChatApp", )
-KEYS_SOCKET = (SOCKET_HOST, SOCKET_PORT,) = ('localhost', 6660, )
+KEYS_SOCKET = (SOCKET_HOST, SOCKET_PORT,) = ('localhost', 8000, )
 
 KEYS_RESPONSE = (TYPE, ATTACHMENTS, INTRODUCE, WELCOME, USERNAME_EXISTS, INFORM_CLIENTS, CHAT, FILE, LEAVE) \
     = ('type', 'attachments', 'introduce', 'welcome', 'username_exists', 'inform_clients', 'chat', 'file', 'leave')
